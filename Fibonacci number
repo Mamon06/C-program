@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main() {
+       int n,i,num1=0,num2=1;//initilize 1st and 2nd number
+       int num3 = num1+num2; //initilize 3rd  number
+       printf("Enter the number:");
+       scanf("%d",&n);
+       printf("fibonacci series : %d,%d,", num1,num2);
+       3rd item print......
+       //for(i=3;i<n;i++)
+        while(num3<=n)
+       {
+           printf("%d,",num3);
+           num1=num2;
+           num2=num3;
+           num3=num1+num2;
+       }
+      
+    return 0;
+}
