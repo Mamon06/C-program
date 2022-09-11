@@ -12,3 +12,25 @@ int main() {
    
     return 0;
 }
+
+
+while loop:
+
+int main() {
+       int num ,i, sum=0;//initilize 1st and 2nd number
+       printf("Enter the number:");
+       scanf("%d",&num);
+       i=1;
+      
+      while(i<=num)
+       {
+          sum += i;
+          i++;
+       }
+       printf("Sum of number:%d",sum);
+   
+    return 0;
+}
+
+
+
