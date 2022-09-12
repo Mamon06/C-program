@@ -1,0 +1,26 @@
+# C-program
+#include <stdio.h>
+
+int main() {
+     int n1,n2,temp;
+     printf("Enter the number:");
+     scanf("%d",&n1);
+     printf("Enter the number:");
+     scanf("%d",&n2);
+     temp=n1;
+     n1=n2;
+     n2=temp;
+     printf(" After Swapping 1st number:%d\n",n1);
+     printf(" Before Swapping 2nd number:%d",n2);
+
+    return 0;
+}
+
+
+
+out put:
+
+Enter the number:5
+Enter the number:6
+1st number:6
+2nd number:5
